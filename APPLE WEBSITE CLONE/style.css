@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.navbar1{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 33, 33);
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    top: 0;
+}
+
+.icon_div{
+    display: flex;
+}
+.items_nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-top: 14px;
+    padding: 10px;
+    color: white;
+}
+.logo1 i{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+.icons_1 i{
+    padding: 10px;
+    font-size: medium;
+    color: white;
+}
+.bars1{
+    display: none;
+}
+
+.hero_section {
+    width: 100vw;
+    height: 100vh;    
+    /* margin-top: 60px; */
+    background-image: url(assets/hero_iphone15pro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.text0{
+    margin-top: 6rem;
+    color: white;
+    text-align: center;
+}
+.text0 h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.text0 h2{
+    text-align: center;
+}
+.text0 a{
+    color: blue;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.hero1_section{
+    margin-top: 1rem;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/hero_apple_vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.text1{
+    margin-bottom: 4rem;
+}
+
+.text1 img {
+    width: 20rem;
+}
+.text1{
+    text-align: center;
+    word-spacing: 0.25rem;
+    font-size: 1.3rem;
+}
+
+.hero2_section{
+    margin-top: 1rem;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/hero_valentines_day_2024__dyne8c2no3ki_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.item2{
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.item2 h1{
+    font-size: 3rem;
+}
+.item2 h4{
+    font-size: 1.5rem;
+}
+
+.item2 a{
+    font-size: 1.3rem;
+}
+
+.box{
+    margin-top: 1rem;
+}
+
+.box1{
+    background-image: url(assets/promo_iphone15_announce__fmxxi8r9fkuy_small_2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+
+
+
+}
+.box2{
+    background-image: url(assets/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.box3{
+    background-image: url(assets/promo_mbp__ek7p477bkp6q_small_2x.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.box4{
+    background-image: url(assets/promo_ipad__fioegapg12qi_small_2x.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.box5{
+    background-image: url(assets/tile__cauwwcyyn9hy_small_2x.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.box6{
+    background-image: url(assets/promo_iphone_tradein__bugw15ka691e_small_2x.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.box{
+    margin-bottom: 1rem;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+    border: 1px solid gray;
+    border-radius: 20px;    
+}
+.item4{
+    color: white;
+}
+.item4 h6{
+    color: red;
+}
+
+.item5,.item6,.item3,.item4,.item7,.item8{
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+.item5 a , .item6 a, .item3 a, .item4 a, .item7 a, .item8 a{
+    padding-left: 1rem;
+}
+
+.automatic{
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    max-width: 99%;
+    min-width: 80%;
+}
+
+.foot{
+    padding: 2rem;
+}
+.foot h6{
+    font-size: 14px;
+}
+
+@media screen and (min-width:100px) and (max-width:768px) {
+    .items_nav{
+        display: none;
+    }
+    .navbar1{
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .bars1 i{
+        display: flex;
+        align-items: center;
+    }
+    html{
+        font-size: medium;
+    }
+    .automatic{
+        width: 95%;
+    }
+    
+
+}
+
